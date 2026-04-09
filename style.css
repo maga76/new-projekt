@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 88px;
+    padding-top: 34px;
+    padding-left: 72px;
+    background-color: #F1DFD5;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bnt{
+    width: 165px;
+    height: 45px;
+    background-color: #262626;
+    border: none;
+    color: white;
+    align-items: center;
+}
+.knopka{
+    display: flex; 
+    gap: 33px;
+}
+.reg{
+    display: flex; 
+    gap: 76px; 
+    margin-left: 427px;
+}
+.THE{
+    width: 831px;
+    height: 196px;
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:510px){
+    .knopka, .reg{
+        display: none;
+    }
+    .img{
+        padding-left: -117px;
+    }
+}
