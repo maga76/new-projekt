@@ -252,7 +252,7 @@
     color: #0C0C0C;
     font-size: 15.28px;
     font-weight: 500;
-    
+
 }
 .foterfoter{
     display: flex;
@@ -262,6 +262,14 @@
 /* .footer{
     display: flex;
 } */
+ .pppp{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 115px; 
+    margin-left: 665px; 
+    margin-top: -90px; 
+    row-gap: 30px;
+ }
 @media(max-width:510px){
     .knopka, .reg{
         display: none;
@@ -360,5 +368,12 @@
         height: 237px;
         margin-left: -15px;
         margin-top: 0px;
+    }
+    .pppp{
+        margin-left: 0px;
+        margin-top: 30px    ;
+    }
+    .SUBSKRIB{
+        margin-left: 20px;
     }
 }
