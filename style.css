@@ -31,10 +31,88 @@
 .THE{
     width: 831px;
     height: 196px;
+    font-size: 80px;
+    font-weight: 600;
+    margin-left: 400px;
+    padding-top: 171px;
 }
+.THEend{
+    width: 577px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 431px;
+    margin-top: 20px;
+}
+.bnt1{
+    width: 209px;
+    height: 58px;
+    background-color: #262626;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bnt2{
+    width: 209px;
+    height: 58px;
+    background-color: white;
+    border: 2px solid #262626;
+    font-size: 16px;
+    font-weight: 500;
+}
+.bntOBSH{
+    display: flex;
+    gap: 6px;
+    margin-left: 493px;
+    margin-top: 69px;
 
-
-
+}
+.img-1{
+    position: absolute;
+    top: 221px;
+    left: 72px;
+}
+.img-2{
+    position: absolute;
+    top: 330px;
+    left: 211px;
+}
+.img-f{
+    position: absolute;
+    top: 440px;
+    left: 163px;
+}
+.img-d{
+    position: absolute;
+    top: 520px;
+    left: 283px;
+}
+.img-t{
+    position: absolute;
+    top: 612px;
+    left: 233px;
+}
+.img-y{
+    position: absolute;
+    top: 340px;
+    left: 1220px;
+}
+.img-b{
+    position: absolute;
+    top: 420px;
+    left: 1016px;
+}
+.img-s{
+    position: absolute;
+    top: 450px;
+    left: 1180px;
+}
+.img-t1{
+    position: absolute;
+    top: 584px;
+    left: 1226px;
+}
 
 
 
@@ -48,5 +126,36 @@
     }
     .img{
         padding-left: -117px;
+    }
+    .img-1, .img-2,.img-f,.img-d,.img-t,.img-y,.img-b,.img-s,.img-t1{
+        display: none;
+    }
+    .THE{
+        margin-left: 32px;
+        padding-top: 72px;
+        width: 312px;
+        height: 74px;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .THEend{
+        margin-left: 0px;
+        width: 330px;
+        height: 45px;
+        margin-left: 23px;
+        /* font-size: 12px;
+        font-weight: 500; */
+    }
+    .bntOBSH{
+        margin-left: 0px;
+    }
+    .bnt1{
+        width: 141px;
+        height: 43px;
+        margin-left: 45px;
+    }
+    .bnt2{
+        width: 141px;
+        height: 43px;
     }
 }
