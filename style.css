@@ -171,10 +171,25 @@
     justify-content: space-evenly;
     margin-top: 82px;
 }
-
-
-
-
+.Q{
+    width: 506px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 132px;
+}
+.loremQ{
+    width: 633px;
+    height: 76px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 22px;
+}
+.nawis4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 @media(max-width:510px){
     .knopka, .reg{
         display: none;
