@@ -190,6 +190,23 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.GIVe{
+    width: 258px;
+    height: 74px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto;
+    padding-top: 93px;
+}
+.cardPINK{
+    width: 390px;
+    height: 180px;
+    border-radius: 11px;
+    padding: 28px;
+    background-color: #FFFFFF;
+    /* display: flex; */
+}
+
 @media(max-width:510px){
     .knopka, .reg{
         display: none;
@@ -202,7 +219,7 @@
     }
     .THE{
         margin-left: 32px;
-        padding-top: 72px;
+        padding-top: -600px;
         width: 312px;
         height: 74px;
         font-size: 30px;
@@ -242,9 +259,9 @@
         width: 311px;
         height: 228px;
     }
-    main{
+    /* main{
         padding: 30px;
-    }
+    } */
     .bring{
         width: 313px;
         height: 66px;
@@ -262,5 +279,25 @@
         height: 39px;
         font-size: 10px;
         font-weight: 500;
+    }
+    .Q{
+        width: 335px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 53px;
+    }
+    .loremQ{
+       width: 335px;
+        height: 80px; 
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .cardPINK{
+        width: 338px;
+        height: 180px;
+        border-radius: 11px;
+        padding: 28px;
+        background-color: #FFFFFF;
     }
 }
