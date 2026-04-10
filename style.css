@@ -113,9 +113,64 @@
     top: 584px;
     left: 1226px;
 }
-
-
-
+.divSE2{
+    width: 463px;
+    height: 98px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.divSE3{
+    width: 577px;
+    height: 76px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.divSEOBSH{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 62px;
+}
+.cardSE2{
+    width: 315px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 11px;
+    padding: 31px;
+}
+.cardOBSH{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-left: 140px;
+    margin-top: 51px;
+}
+.bring{
+    width: 467px;
+    height: 98px;
+    font-size: 40px;
+    font-weight: 40px;
+    margin-top: 55px;
+}
+.lorem1{
+    width: 605px;
+    height: 76px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.lorem2{
+    width: 588px;
+    height: 38px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.loremOBSH{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 82px;
+}
 
 
 
@@ -157,5 +212,40 @@
     .bnt2{
         width: 141px;
         height: 43px;
+    }
+    .divSEOBSH{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .divSE3{
+        margin-top: 40px;
+    }
+    .cardOBSH{
+        margin-left: 10px;
+    }
+    .img{
+        width: 311px;
+        height: 228px;
+    }
+    main{
+        padding: 30px;
+    }
+    .bring{
+        width: 313px;
+        height: 66px;
+        font-size: 26px;
+        font-weight: 600;
+    }
+    .lorem1{
+        width: 289px;
+        height: 65px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .lorem2{
+        width: 309px;
+        height: 39px;
+        font-size: 10px;
+        font-weight: 500;
     }
 }
